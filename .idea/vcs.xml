@@ -2,7 +2,5 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/LeetCode/30day-leetcoding-challenge---Nov" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/LeetCode/30day-leetcoding-challenge---Nov/Week-1-Nov" vcs="Git" />
   </component>
 </project>
