@@ -4,7 +4,7 @@
 //
 
 public interface BestTimeToBuyAndSellStock {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         int[] price = new int[]{7, 6, 4, 3, 1};
         int buy = price[0];
         int profit = 0;
