@@ -6,10 +6,10 @@ public class Palindrome {
 
         String s = "A man, a plan, a canal: Panama";
 
-        boolean result = palindrom(s);
+        boolean result = palindrome(s);
         System.out.println(result);
     }
-    private static boolean palindrom(String s) {
+    private static boolean palindrome(String s) {
         s = s.toLowerCase().replaceAll("[^a-z0-9]", "");
         int left=0;
         int right = s.length()-1;
