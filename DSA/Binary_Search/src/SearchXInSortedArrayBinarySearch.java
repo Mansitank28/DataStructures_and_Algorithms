@@ -9,7 +9,7 @@ public class SearchXInSortedArrayBinarySearch {
         int result = search(nums,target);
         System.out.println("i======="+result);
     }
-
+// Time complexity is - O(log2n) Big of logarithmic base two 2 n
     private static int search(int[] nums, int target) {
 
         int low=0,high = nums.length-1;

@@ -15,7 +15,7 @@ Explanation: Index 1 is the smallest index such that arr[1] >= x.*/
         int result = searchType(nums,x);
         System.out.println("i======="+result);
     }
-
+    // Time complexity is - O(log2n) Big of logarithmic base two 2 n
     private static int searchType(int[] nums, int x) {
 
         int low =0,high=nums.length-1;
