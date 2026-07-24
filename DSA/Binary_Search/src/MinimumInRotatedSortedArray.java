@@ -19,6 +19,14 @@ public class MinimumInRotatedSortedArray {
         while(low <= high){
 
             int mid = (low + high)/2;
+            //search the space is already sorted
+            //then always arr[low] is will be smaller
+            //in that search space
+            if(arr[low] <= arr[high]){
+
+                ans = min(ans, arr[low]);
+                break;
+            }
             if(arr[low] <= arr[mid]){
                 ans = min(ans, arr[low]);
                 low = mid+1;
