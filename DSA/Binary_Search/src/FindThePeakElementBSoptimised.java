@@ -8,6 +8,7 @@ public class FindThePeakElementBSoptimised {
         System.out.println("==== "+peakElement);
     }
 
+    // Time complexity of the BS - Logarithmic based N
     private static int searchPeakElement(int[] arr, int n) {
 
         if(n==1) return 0; //First index element; left side -Infine is there
