@@ -1,4 +1,4 @@
-public class FindSureRootofANumberBruteForce {
+public class FindSqureRootofANumberBruteForce {
 
     public static void main(String[] args) {
 
