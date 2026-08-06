@@ -8,17 +8,17 @@ public class FindSqureRootOfIntegerBs {
 
     }
     private static int squreRoot(int n) {
-        int ans =1;
+        long ans =1;
         int low =1, high =n;
         while(low <= high){
-            int mid = (low+high) /2;
+            long mid = (low+high) /2;
 
             if(mid * mid <= n ){
                 ans = mid;
-                low = mid+1;
+                low = (int) (mid+1);
             }else
-                high = mid-1;
+                high = (int) (mid-1);
         }
-        return ans;
+        return (int) ans;
     }
 }
