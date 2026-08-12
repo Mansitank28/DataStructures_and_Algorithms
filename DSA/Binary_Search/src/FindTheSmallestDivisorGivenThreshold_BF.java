@@ -8,7 +8,7 @@ public class FindTheSmallestDivisorGivenThreshold_BF {
         int ans = SmallestDivisor(nums, threshold);
         System.out.println("====== "+ans);
     }
-
+//Time Complexity is TC - 1 to Max = Max * n O(max*n) , Sc = O(1)
     private static int SmallestDivisor(int[] nums, int threshold) {
 
         int n = nums.length;
