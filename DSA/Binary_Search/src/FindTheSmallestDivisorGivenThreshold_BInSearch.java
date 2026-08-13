@@ -5,7 +5,7 @@ public class FindTheSmallestDivisorGivenThreshold_BInSearch {
     public static void main(String[] args) {
 
         int nums[] = {1,2,5,9};
-        int threshold = 6;
+        int threshold = 7;
         int ans = divisorByGivenThreshold(nums, threshold);
         System.out.println("======== "+ans);
     }
