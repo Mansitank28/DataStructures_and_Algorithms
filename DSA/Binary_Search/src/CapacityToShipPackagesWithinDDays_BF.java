@@ -12,6 +12,8 @@ public class CapacityToShipPackagesWithinDDays_BF {
 
     }
 
+    //Time Complexity - go to max to sum O(Sum-max)+1 * Big O of(N) this is length
+    //linear into linear - near about Quadratic ~- time Complexity
     //Brute Force technic
     private static int shipWithinDays(int[] weights, int days) {
        // start looking for 10 (Range 10 to 55 (Sum of all))
